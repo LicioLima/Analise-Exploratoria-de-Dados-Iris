@@ -25,7 +25,8 @@ Essa análise permitiu observar:
 
 ## 🖼️ Visualização
 
-![Pairplot](images/pairplot.png)
+![Pairplot](<img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/190977b2-7cf5-4dc5-aba0-2669b70e646d"/>)
+
 
 ---
 
