@@ -1,112 +1,109 @@
-# 🌸 Análise Exploratória de Dados — Iris Dataset
+# 📊 Visualizações da Análise Exploratória de Dados
 
-## 📖 Contexto do Projeto
+Nesta etapa do projeto, foram utilizadas visualizações estatísticas para compreender padrões, relações entre variáveis e possíveis inconsistências presentes no dataset Iris.
 
-Este projeto foi desenvolvido como parte do **Módulo 1 do Bootcamp de Engenharia de Dados**.
-
-Nele, assumi o papel de **Consultor(a) Principal** da empresa fictícia **Dados Mágicos Ltda.**, com o objetivo de demonstrar aos stakeholders como a **Análise Exploratória de Dados (EDA)** é essencial para apoiar decisões estratégicas e preparar dados para futuros modelos preditivos.
-
-A análise utiliza o famoso **Iris Dataset**, considerado o *“Hello World”* da Ciência de Dados, contendo métricas físicas de três espécies de flores íris:
-
-- Setosa
-- Versicolor
-- Virginica
+As análises gráficas permitiram identificar comportamentos importantes das espécies e validar a qualidade dos dados antes de futuras modelagens preditivas.
 
 ---
 
-# 🎯 Objetivos de Aprendizado
+# 🌸 Pairplot — Relação Entre Variáveis
 
-Este projeto exercita conceitos fundamentais da **Modern Data Stack** e das boas práticas de desenvolvimento em dados, incluindo:
+O **Pairplot** foi utilizado para visualizar simultaneamente a relação entre todas as variáveis numéricas do dataset.
 
-- Fundamentos de Engenharia de Dados
-- Ingestão e preparação de dados
-- Boas práticas de desenvolvimento em Python
-- Versionamento e organização de código
-- Análise Exploratória de Dados (EDA)
-- Extração de insights estatísticos
-- Visualização de dados
+Essa análise permitiu observar:
 
----
+- Separação entre espécies
+- Correlação visual entre atributos
+- Formação de agrupamentos naturais
+- Distribuição individual das variáveis
 
-# 🛠️ Tecnologias e Ferramentas
+## 🔍 Principais Insights
 
-## Linguagem
-- Python
+- A espécie **Setosa** apresentou separação muito clara das demais.
+- As medidas de pétalas demonstraram maior capacidade de distinção entre espécies.
+- Foi possível visualizar padrões lineares entre algumas variáveis.
 
-## Bibliotecas de Manipulação
-- Pandas  
-  - DataFrames
-  - Inspeção de dados
-  - Limpeza de dados
+## 🖼️ Visualização
 
-## Bibliotecas de Visualização
-- Seaborn
-- Matplotlib
-
-## Ambiente de Desenvolvimento
-- Google Colab
-- Jupyter Notebook
+![Pairplot](images/pairplot.png)
 
 ---
 
-# 📈 Etapas da Implementação Técnica
+# 🔥 Heatmap — Correlação Entre Variáveis
 
-A análise foi conduzida seguindo um fluxo estruturado de engenharia de dados para garantir confiabilidade e qualidade das informações.
+O **Heatmap de Correlação** foi utilizado para identificar relações numéricas entre os atributos do dataset utilizando a Correlação de Pearson.
 
-## 1️⃣ Ingestão e Inspeção dos Dados
+Essa análise ajudou a compreender:
 
-- Carregamento do arquivo CSV
-- Visualização inicial com:
-  - `head()`
-  - `info()`
-  - `describe()`
+- Quais variáveis possuem maior relação entre si
+- Dependências entre atributos
+- Possíveis redundâncias nos dados
+
+## 🔍 Principais Insights
+
+- As variáveis relacionadas às pétalas apresentaram forte correlação positiva.
+- Algumas medidas das sépalas demonstraram correlação moderada.
+- O mapa de calor facilitou a interpretação visual das relações estatísticas.
+
+## 🖼️ Visualização
+
+![Heatmap](images/heatmap.png)
 
 ---
 
-## 2️⃣ Qualidade dos Dados
+# 📦 Boxplot — Identificação de Outliers
 
-- Verificação de valores nulos com:
-  - `isnull()`
-- Análise do balanceamento entre espécies:
-  - `value_counts()`
+O **Boxplot** foi utilizado para analisar a dispersão dos dados e identificar possíveis outliers.
+
+Essa etapa é importante para:
+
+- Detectar valores discrepantes
+- Entender a distribuição estatística
+- Auxiliar na preparação dos dados para modelagem
+
+## 🔍 Principais Insights
+
+- Algumas variáveis apresentaram pontos fora do padrão esperado.
+- Foi possível comparar a dispersão entre espécies.
+- As medidas das pétalas demonstraram distribuições distintas entre classes.
+
+## 🖼️ Visualização
+
+![Boxplot](images/boxplot.png)
 
 ---
 
-## 3️⃣ Visualização Estatística
+# 📈 Histogramas — Distribuição de Frequência
 
-### 🔹 Scatterplots e Pairplots
-Utilizados para identificar:
-- Relações entre variáveis
-- Agrupamentos naturais das espécies
-- Separabilidade dos dados
+Os **Histogramas** foram utilizados para compreender a distribuição de frequência dos atributos numéricos.
 
-### 🔹 Histogramas e Distplots
-Aplicados para compreender:
-- Distribuição de frequência
+Essa visualização permitiu analisar:
+
+- Concentração de valores
+- Assimetria da distribuição
 - Comportamento estatístico das variáveis
 
-### 🔹 Heatmap de Correlação
-Uso da **Correlação de Pearson** para identificar relações entre atributos numéricos.
+## 🔍 Principais Insights
 
-### 🔹 Boxplots
-Ferramenta essencial para:
-- Identificação de outliers
-- Detecção de valores discrepantes
-- Preparação para futuras modelagens
+- Algumas variáveis apresentaram distribuição mais concentrada.
+- Foi possível identificar diferenças na frequência entre atributos.
+- A distribuição ajudou a compreender o comportamento geral dos dados.
+
+## 🖼️ Visualização
+
+![Histogramas](images/histogramas.png)
 
 ---
 
-# 🚀 Como Executar
+# 🎯 Conclusão da Análise Visual
 
-Este projeto está disponível no formato `.ipynb`.
+As visualizações estatísticas foram fundamentais para compreender o comportamento do dataset e validar a qualidade das informações.
 
-Você pode executá-lo diretamente em:
+A etapa de EDA permitiu:
 
-- Google Colab
-- Jupyter Notebook
-- VS Code com extensão Jupyter
+- Identificar padrões relevantes
+- Detectar relações entre variáveis
+- Encontrar possíveis outliers
+- Compreender a separação entre espécies
 
-## Dependências necessárias
-
-```bash
-pip install pandas matplotlib seaborn
+Esses insights são essenciais para garantir maior confiabilidade em futuras etapas de modelagem e machine learning.
