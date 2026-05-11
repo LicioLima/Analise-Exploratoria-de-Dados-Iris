@@ -25,7 +25,7 @@ Essa análise permitiu observar:
 
 ## 🖼️ Visualização
 
-![Pairplot](<img width="224" height="224" alt="image" src="https://github.com/user-attachments/assets/190977b2-7cf5-4dc5-aba0-2669b70e646d"/>)
+[<img width="952" height="789" alt="image" src="https://github.com/user-attachments/assets/0e1fb160-f620-4d08-b7b9-0a5e1872956f" />](https://postimg.cc/pyRjW0bf)
 
 
 ---
@@ -48,7 +48,7 @@ Essa análise ajudou a compreender:
 
 ## 🖼️ Visualização
 
-![Heatmap](images/heatmap.png)
+[![Heatmap]https://postimg.cc/7GVfJk82
 
 ---
 
