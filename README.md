@@ -48,7 +48,7 @@ Essa análise ajudou a compreender:
 
 ## 🖼️ Visualização
 
-[![Heatmap]https://postimg.cc/7GVfJk82
+[![Heatmap.png](https://i.postimg.cc/vThjRMnn/Heatmap.png)](https://postimg.cc/JHyKJfP7)
 
 ---
 
@@ -70,31 +70,10 @@ Essa etapa é importante para:
 
 ## 🖼️ Visualização
 
-![Boxplot](images/boxplot.png)
+[![Boxplot.png](https://i.postimg.cc/NMM28k48/Boxplot.png)](https://postimg.cc/rdBpMW7z)
 
 ---
 
-# 📈 Histogramas — Distribuição de Frequência
-
-Os **Histogramas** foram utilizados para compreender a distribuição de frequência dos atributos numéricos.
-
-Essa visualização permitiu analisar:
-
-- Concentração de valores
-- Assimetria da distribuição
-- Comportamento estatístico das variáveis
-
-## 🔍 Principais Insights
-
-- Algumas variáveis apresentaram distribuição mais concentrada.
-- Foi possível identificar diferenças na frequência entre atributos.
-- A distribuição ajudou a compreender o comportamento geral dos dados.
-
-## 🖼️ Visualização
-
-![Histogramas](images/histogramas.png)
-
----
 
 # 🎯 Conclusão da Análise Visual
 
